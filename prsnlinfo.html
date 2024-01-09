@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* table {
+            background-color: rgba(122, 128, 129, 0.863);
+            height: 1cm;
+            width: 75%;
+            margin-top: 2px;
+            border: 3px ridge black;
+
+        }
+        th {
+            border-left: 1px solid black;
+            border-collapse: collapse;
+            text-align:center ;
+            margin: auto ;
+            padding: 10px;
+        }
+        #colored {
+            background-color: rgba(2, 252, 177, 0.582);
+            
+        }
+        
+        fieldset {
+            width: 45%;
+            align-items: center;
+            size: 50;
+        }
+        input {
+            columns: 10;
+            size: 50;
+        }
+        .buttons {
+            width: 100%;
+            height: auto;
+        } */
+    
+        
+    </style>
+</head>
+<body>
+    <center>
+        <table>
+            <tr>
+                <th class="colored">Personal Info</th>
+                <th>Account</th>
+                <th> Your Review</th>
+            </tr>
+        </table>
+        <br />
+        <form>
+             <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <div id="form">
+                <p><label for="First-name">First-Name:</label>
+                    <input type="text" id="First-name">
+                </p>
+                <p><label for="last-name">Last-Name:</label>
+                    <input type="text" id="last-name"></p>
+                <label for="social">Social-Link:</label> 
+                <input type="url" id="social" placeholder="Facebook/Instagram">
+                <br />
+                <p><label for="cnic">CNIC No:</label>
+                    <input type="number" id="cnic" maxlength="1"></p>
+                <label for="tel-no">Phone Number:</label>
+                <input type="tel" id="tel-no" maxlength="1">
+                <br /><br />
+                <a href="./index.html"><img class="buttons" src="./back.png" alt="back-btn"></a><a href="./account.html"><img src="./next.png" class="buttons" alt="next-btn"></a>
+             </div>
+        </fieldset>
+        </form>
+    </center>
+    
+</body>
+</html>
